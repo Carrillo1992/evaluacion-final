@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width:device-width, user-scalable:no">
+    <title>Hoja de vida</title>
+  </head>
+  <body>
+    <svg width="225px" heigth="225px" viewBox="0 0 150 150">
+        <image xlink:href="../media/logo.svg" width="100px" heigth="100px"></image>
+    </svg>
+    <h1>Hoja de vida</h1>
+      <h2>Daniel Carrillo</h2>
+       <h3>Mérida-Venezuela</h3>
+       <ul>
+         <li><a href="../index.html"><img src="../media/incio.png" alt="inicio"></a></li>
+         <li><a href="educacion.html"><img src="../media/educacion.png" alt="educacion"></a></li>
+         <li><a href="experiencia.html"><img src="../media/experiencia.png" alt="experiencia"></a></li>
+       </ul>
+       <h2>Educación</h2>
+       <table border="1">
+         <tr>
+           <th>Año</th>
+           <th>Institución</th>
+           <th>Lugar</th>
+           <th>¿Culminó?</th>
+         </tr>
+         <tr>
+           <td>2007</td>
+           <td>Colegio "La Salle"</td>
+           <td>Mérida-Venezuela</td>
+           <td>Si</td>
+         </tr>
+         <tr>
+           <td>2008</td>
+           <td>Manejo y Reparacion de PC</td>
+           <td>Instituto "Simón Bolivar"</td>
+           <td>Si</td>
+         </tr>
+         <tr>
+           <td>2009</th>
+           <td>Licenciatura en Fisica</td>
+           <td>Universidad de "Los Andes"</td>
+           <td>En Proceso</td>
+         </tr>
+          <tr>
+            <td>2017</td>
+            <td>Diseño Web</td>
+            <td>Next_U</td>
+            <td>En Proceso</td>
+          </tr>
+       </table>
+
+       <form autocomplete="on" name="agregar estudios">
+         <legend><h2>Agregar Estudios</h2></legend>
+
+          <p><strong>Año:</strong>
+            <select name="Año" required fill"none"><br/></p>
+             <option>Seleccione uno</option>
+             <option>2017</option>
+             <option>2016</option>
+             <option>2015</option>
+             <option>2014</option>
+             <option>2013</option>
+             <option>2011</option>
+             <option>2010</option>
+          </select>
+          <p><strong>Institución:</strong>
+            <input type="text" name="Institucion" placeholder="Next_U" required=""><br/></p>
+          <p><strong>Lugar:</strong>
+            <textarea name="Lugar" rows="3" cols="30" required placeholder="Cancún"></textarea><br/></p>
+          <p>¿Culminó?:
+          <input type="radio" name="sino" value="yes"> si
+          <input type="radio" name="sino" value="no"> no<br/></p>
+          <input type="submit" name="enviar">
+       </form>
+     </body>
+     <footer><strong>Contacto:</strong> <a href="mailto:danielcarrillo1992@gmail.com">Correo</a> <a href="https://www.facebook.com/daniel.carrillo.167" target="_blank">Facebook</a>Telefono:+58-414-7204569</footer>
+   </html>
